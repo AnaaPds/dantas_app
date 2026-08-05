@@ -50,7 +50,7 @@ function Footer() {
 
         <p>+55 11 96267-2165</p>
 
-        <p>dantaslimpeza@gmail.com</p>
+        <p>dantaslimpezacom@gmail.com</p>
 
         <p>
           <Link to="/duvidas" className="footer-link">DÚVIDAS</Link>
