@@ -1,0 +1,68 @@
+.about-page-wrapper {
+  width: 100%;
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-main-content {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px 20px 80px;
+  box-sizing: border-box;
+}
+
+
+.about-title {
+  color: #2B6884;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+
+
+.about-logo-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.about-large-logo {
+  max-width: 540px;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+.about-text-section {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.about-text-section p {
+  color: #2B6884; /* Mantém a cor azul corporativa */
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  text-align: left;
+}
+
+
+@media (max-width: 768px) {
+  .about-main-content {
+    padding: 25px 20px 50px;
+  }
+  
+  .about-title {
+    font-size: 26px;
+    margin-bottom: 25px;
+  }
+
+  .about-large-logo {
+    max-width: 90%;
+  }
+}

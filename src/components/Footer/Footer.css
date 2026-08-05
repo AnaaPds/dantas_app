@@ -1,0 +1,120 @@
+.footer {
+  width: 100%;
+  background-color: #2B6884;
+  color: white;
+  padding: 35px 40px 20px; 
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 40px;
+  box-sizing: border-box;
+}
+
+.footer-left {
+  max-width: 400px;
+  width: 100%;
+}
+
+.footer-logo {
+  height: 55px;
+  width: auto;
+  margin-bottom: 15px;
+}
+
+.footer-left p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0 0 20px;
+}
+
+
+.footer-social {
+  display: flex;
+  gap: 20px; /* Aumentado ligeiramente o espaço entre os dois ícones */
+  margin-bottom: 20px;
+}
+
+
+.footer-social a {
+  display: inline-block;
+  line-height: 0;
+}
+
+
+.footer-social img {
+  width: 37px;  /* Aumentado de 24px para 32px para dar mais destaque */
+  height: 37px; /* Mantém a proporção quadrada perfeita */
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.footer-social img:hover {
+  transform: scale(1.1); /* Efeito sutil ao passar o mouse */
+}
+
+.footer-left span {
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: right;
+}
+
+.footer-right h4 {
+  font-size: 22px;
+  margin: 0 0 5px 0;
+  letter-spacing: 1px;
+}
+
+.footer-right p {
+  font-size: 16px;
+  margin: 0;
+  cursor: pointer;
+}
+
+
+.footer-link,
+.footer-right p a {
+  color: #ffffff !important;
+  text-decoration: none !important;
+  transition: opacity 0.2s ease;
+}
+
+.footer-link:hover,
+.footer-right p a:hover {
+  opacity: 0.8;
+}
+
+
+.footer-bottom {
+  width: 100%;
+  text-align: center;
+  margin-top: 25px; /* Reduzido de 40px para acompanhar o design mais compacto */
+  padding-top: 15px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 20px 20px;
+  }
+  .footer-left {
+    margin: 0 auto;
+  }
+  .footer-social {
+    justify-content: center;
+  }
+  .footer-right {
+    text-align: center;
+  }
+}

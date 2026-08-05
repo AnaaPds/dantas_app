@@ -1,0 +1,103 @@
+.contact-page-wrapper {
+  width: 100%;
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-main-content {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 60px 20px 90px;
+  box-sizing: border-box;
+  flex: 1;
+}
+
+
+.contact-header-zone {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.contact-title {
+  color: #2B6884;
+  font-size: 36px;
+  font-weight: 700;
+  margin: 0;
+}
+
+
+.contact-sections-container {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.contact-intro-text {
+  color: #2B6884;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+
+.contact-info-block {
+  margin-bottom: 35px;
+}
+
+.contact-sections-container h3 {
+  color: #2B6884;
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0 0 15px 0;
+}
+
+.contact-info-block p,
+.contact-action-block p {
+  color: #2B6884;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0 0 15px 0;
+}
+
+.contact-info-block strong {
+  font-weight: 700;
+}
+
+/* Bloco final do WhatsApp */
+.contact-action-block {
+  margin-top: 45px;
+}
+
+.whatsapp-redirect-link {
+  display: inline-block;
+  margin-top: 10px;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.whatsapp-redirect-link:hover {
+  transform: scale(1.05); /* Efeito suave de zoom ao passar o mouse */
+  opacity: 0.9;
+}
+
+.whatsapp-button-img {
+  width: 50px; /* Tamanho proporcional baseado na imagem do modelo */
+  height: 50px;
+  display: block;
+  object-fit: contain;
+}
+
+
+@media (max-width: 768px) {
+  .contact-main-content {
+    padding: 40px 20px 60px;
+  }
+  .contact-title {
+    font-size: 30px;
+  }
+  .contact-intro-text {
+    font-size: 16px;
+  }
+}

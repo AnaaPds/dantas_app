@@ -1,0 +1,118 @@
+.service-detail-page {
+  width: 100%;
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-main-content {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px 20px 80px;
+  box-sizing: border-box;
+}
+
+.detail-main-title {
+  color: #2B6884;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+
+
+.detail-images-comparison,
+.before-after-container {
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 20px !important;
+  justify-content: center !important;
+  margin-bottom: 40px !important;
+  width: 100% !important;
+  max-width: 800px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+
+.comparison-box,
+.image-box {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  flex: 1 !important;
+  max-width: 350px !important; 
+  width: 100% !important;
+}
+
+
+.comparison-box img,
+.image-box img {
+  width: 100% !important;
+  height: 240px !important; 
+  object-fit: cover !important; 
+  border-radius: 6px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08) !important;
+}
+
+.comparison-label,
+.image-label {
+  font-weight: 700 !important;
+  font-size: 15px !important;
+  color: #173441 !important;
+  margin-top: 12px !important;
+  letter-spacing: 1.5px !important;
+}
+
+.detail-text-section {
+  max-width: 850px;
+  margin: 0 auto;
+  color: #4A6B82;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.detail-description {
+  margin-bottom: 35px;
+}
+
+.detail-text-section h3 {
+  color: #2B6884;
+  font-size: 18px;
+  margin: 30px 0 15px 0;
+  font-weight: 700;
+}
+
+.detail-list {
+  padding-left: 20px;
+  margin-bottom: 35px;
+}
+
+.detail-list li {
+  margin-bottom: 8px;
+  color: #4A6B82;
+}
+
+.detail-result-text {
+  margin-bottom: 20px;
+}
+
+
+@media (max-width: 768px) {
+  .detail-images-comparison,
+  .before-after-container {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  .comparison-box,
+  .image-box {
+    width: 90% !important;
+    max-width: 100% !important;
+  }
+  .comparison-box img,
+  .image-box img {
+    height: 200px !important;
+  }
+}
