@@ -3,21 +3,24 @@
   background-color: #2B6884;
   padding: 12px 0;
   box-sizing: border-box;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 4px 14px rgba(23, 52, 65, 0.18);
 }
 
 .header-container {
   width: 100%;
-  max-width: 100%; 
+  max-width: 100%;
   margin: 0 auto;
-  padding: 0 40px; 
-  
+  padding: 0 40px;
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   align-items: center;
   box-sizing: border-box;
 }
 
-
+/* Logo */
 .header-logo-link {
   justify-self: start;
   display: flex;
@@ -25,39 +28,60 @@
 }
 
 .header-logo {
-  height: 52px;
+  height: 50px;
   width: auto;
   display: block;
+  transition: transform 0.3s ease;
 }
 
+.header-logo-link:hover .header-logo {
+  transform: scale(1.04);
+}
 
+/* Navegação central */
 .header-nav {
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 32px;
   justify-self: center;
 }
 
-
-.header-nav .nav-link,
-.contact-btn {
-  color: #ffffff !important;
+.header-nav .nav-link {
+  position: relative;
+  color: rgba(255, 255, 255, 0.92) !important;
   text-decoration: none !important;
   font-size: 15px;
   font-weight: 500;
-  transition: color 0.2s ease, opacity 0.2s ease;
+  padding: 6px 0;
+  transition: color 0.25s ease, transform 0.25s ease;
   white-space: nowrap;
 }
 
-
-.header-nav .nav-link.active {
-  color: #173441 !important;
-  font-weight: 500;
+.header-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  transition: width 0.3s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
-.header-nav .nav-link:hover,
-.contact-btn:hover {
-  opacity: 0.8;
+.header-nav .nav-link:hover {
+  color: #ffffff !important;
+  transform: translateY(-1px);
+}
+
+.header-nav .nav-link:hover::after,
+.header-nav .nav-link.active::after {
+  width: 100%;
+}
+
+.header-nav .nav-link.active {
+  color: #ffffff !important;
+  font-weight: 700;
 }
 
 /* Lado Direito: Botão Contato */
@@ -68,24 +92,75 @@
 }
 
 .contact-btn {
-  background: none;
-  border: none;
-  padding: 0;
+  background-color: rgba(255, 255, 255, 0.14);
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  color: #ffffff !important;
+  text-decoration: none !important;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 9px 18px;
+  border-radius: 6px;
   cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.28s ease;
 }
 
+.contact-btn:hover {
+  background-color: #ffffff;
+  color: #2B6884 !important;
+  border-color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
 
 .contact-btn.active {
+  background-color: #ffffff;
   color: #173441 !important;
-  font-weight: 500;
+  border-color: #ffffff;
+  font-weight: 700;
 }
 
+/* Responsividade */
+@media (max-width: 900px) {
+  .header-container {
+    padding: 0 20px;
+    gap: 14px;
+  }
+
+  .header-nav {
+    gap: 18px;
+  }
+
+  .header-nav .nav-link {
+    font-size: 14px;
+  }
+}
 
 @media (max-width: 768px) {
+  .site-header {
+    position: relative;
+  }
+
   .header-container {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    padding: 10px 20px;
+    gap: 12px;
+    padding: 12px 16px;
+  }
+
+  .header-nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px 20px;
+  }
+
+  .header-right {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .contact-btn {
+    width: 100%;
+    text-align: center;
   }
 }
