@@ -1,16 +1,30 @@
-# React + Vite
+# Dantas Limpeza Profissional — Website Institucional
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Site institucional desenvolvido para a **Dantas Limpeza Profissional**, empresa com mais de 10 anos de atuação em limpeza pós-obra, salas comerciais, escritórios e ambientes corporativos em São Paulo - SP.
 
-Currently, two official plugins are available:
+🔗 **Site no ar:** [https://www.dantaslimpeza.com.br](https://www.dantaslimpeza.com.br)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Sobre o Projeto
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+O objetivo da aplicação é apresentar os serviços da empresa de forma clara e objetiva, exibir resultados reais por meio de comparativos de **Antes e Depois** e facilitar o contato direto com clientes interessados em orçamentos.
 
-## Expanding the ESLint configuration
+### Funcionalidades e Páginas
+- **Início (Home):** Banner principal, apresentação dos pilares da empresa e vitrine de serviços recentes.
+- **Quem Somos:** História, valores e foco de atuação da empresa.
+- **Serviços e Detalhes (`/servico/:id`):** Catálogo completo com páginas dinâmicas contendo descrição, materiais/equipamentos utilizados, resultados e comparativo visual de antes e depois.
+- **Dúvidas (FAQ):** Respostas para perguntas frequentes sobre contratação e execução dos serviços.
+- **Contato:** Canais diretos para atendimento e solicitações de orçamento.
+- **Páginas Institucionais:** Política de Privacidade, Termos de Uso e Sobre o Site.
+- **Design Responsivo:** Layout adaptado para computadores, tablets e smartphones.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Tecnologias e Ferramentas
+
+- **React (JSX)** e **JavaScript**
+- **React Router DOM** (roteamento e páginas dinâmicas)
+- **CSS** (layout responsivo, transições e animações)
+- **Visual Studio Code** (ambiente de desenvolvimento)
+- **Vercel** (publicação e hospedagem)
