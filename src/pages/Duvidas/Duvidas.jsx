@@ -5,7 +5,7 @@ import { duvidasData } from "../../data/duvidasData";
 import "./Duvidas.css";
 
 function Duvidas() {
-  // Começa com o primeiro item aberto; clique em qualquer um para abrir/fechar
+ 
   const [openIndex, setOpenIndex] = useState(0);
 
   const toggleItem = (index) => {

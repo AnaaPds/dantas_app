@@ -12,13 +12,13 @@ function QuemSomos() {
       <Header />
 
       <main className="about-main-content">
-        {/* Cabeçalho da seção */}
+       
         <div className="about-header-block animate-qs-up delay-qs-1">
           <h1 className="about-title">Quem somos</h1>
           <div className="about-title-line"></div>
         </div>
 
-        {/* Bloco Central com a Logo Grande Animada */}
+        
         <div className="about-logo-container animate-qs-up delay-qs-2">
           <div className="about-logo-frame">
             <img
@@ -29,7 +29,7 @@ function QuemSomos() {
           </div>
         </div>
 
-        {/* Faixa de números / pilares rápidos */}
+        
         <div className="about-stats-bar animate-qs-up delay-qs-3">
           <div className="about-stat-item">
             <strong>+10 anos</strong>
@@ -47,7 +47,7 @@ function QuemSomos() {
           </div>
         </div>
 
-        {/* Seção de Parágrafos Corporativos */}
+        
         <div className="about-text-section animate-qs-up delay-qs-4">
           <div className="about-text-card">
             <p>
@@ -82,7 +82,7 @@ function QuemSomos() {
           </div>
         </div>
 
-        {/* Chamada para ação no final */}
+        
         <div className="about-cta-box animate-qs-up delay-qs-4">
           <p>Quer elevar o padrão de limpeza do seu espaço?</p>
           <button

@@ -25,7 +25,7 @@ function Home() {
     <div className="home">
       <Header />
 
-      {/* BANNER PRINCIPAL COM ZOOM E ENTRADA ANIMADA */}
+     
       <section className="banner">
         <img
           src={bannerHome}
@@ -62,7 +62,7 @@ function Home() {
         </div>
       </section>
 
-      {/* TEXTO DE BOAS-VINDAS + PILARES */}
+    
       <section className="home-text">
         <div className="welcome-box">
           <p>
@@ -104,7 +104,7 @@ function Home() {
         </div>
       </section>
 
-      {/* SEÇÃO DE SERVIÇOS RECENTES */}
+      
       <section className="services">
         <h2>Serviços Recentes</h2>
         <div className="title-underline"></div>

@@ -4,7 +4,7 @@
   overflow-x: hidden;
 }
 
-/* ANIMAÇÕES GERAIS */
+
 @keyframes kenBurnsSlow {
   0% {
     transform: scale(1);
@@ -44,7 +44,7 @@
 .delay-3 { animation-delay: 0.4s; }
 .delay-4 { animation-delay: 0.55s; }
 
-/* SEÇÃO DO BANNER */
+
 .banner {
   position: relative;
   width: 100%;
@@ -162,7 +162,7 @@
   transform: translateY(-3px);
 }
 
-/* TAG DE SEÇÃO REUTILIZÁVEL */
+
 .section-tag {
   display: inline-block;
   font-size: 12px;
@@ -175,7 +175,7 @@
   margin-bottom: 14px;
 }
 
-/* TEXTO BOAS-VINDAS + PILARES */
+
 .home-text {
   width: 100%;
   padding: 95px 20px 80px;
@@ -256,7 +256,7 @@
   text-align: left;
 }
 
-/* SEÇÃO DE SERVIÇOS */
+
 .services {
   width: 100%;
   padding: 75px 20px 120px;
@@ -308,7 +308,7 @@
   margin: 0 auto;
 }
 
-/* RESPONSIVIDADE - TABLETS */
+
 @media (max-width: 1024px) {
   .banner {
     height: 480px;
@@ -335,7 +335,7 @@
   }
 }
 
-/* RESPONSIVIDADE - CELULARES */
+
 @media (max-width: 600px) {
   .services-grid {
     flex-direction: column;

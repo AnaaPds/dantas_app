@@ -7,7 +7,7 @@
   overflow-x: hidden;
 }
 
-/* ANIMAÇÕES */
+
 @keyframes sdFadeUp {
   0% {
     opacity: 0;
@@ -43,7 +43,7 @@
   color: #2B6884;
 }
 
-/* CABEÇALHO */
+
 .detail-header-zone {
   text-align: center;
   margin-bottom: 42px;
@@ -65,7 +65,7 @@
   margin: 14px auto 0;
 }
 
-/* ANTES E DEPOIS */
+
 .detail-images-comparison,
 .before-after-container {
   display: flex;
@@ -132,7 +132,7 @@
   letter-spacing: 1.5px;
 }
 
-/* CONTEÚDO EM BLOCOS */
+
 .detail-text-section {
   max-width: 820px;
   margin: 0 auto;
@@ -188,7 +188,7 @@
   margin: 0;
 }
 
-/* BOTÕES */
+
 .detail-actions-row {
   display: flex;
   align-items: center;

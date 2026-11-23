@@ -63,6 +63,10 @@ function Footer() {
         <p>
           <Link to="/termos-de-uso" className="footer-link">TERMOS DE USO</Link>
         </p>
+
+        <p>
+          <Link to="/sobre-o-site" className="footer-link">SOBRE O SITE</Link>
+        </p>
       </div>
 
       <div className="footer-bottom">

@@ -38,7 +38,7 @@
   transform: scale(1.04);
 }
 
-/* Navegação central */
+
 .header-nav {
   display: flex;
   align-items: center;
@@ -84,7 +84,7 @@
   font-weight: 700;
 }
 
-/* Lado Direito: Botão Contato */
+
 .header-right {
   justify-self: end;
   display: flex;
@@ -120,7 +120,7 @@
   font-weight: 700;
 }
 
-/* Responsividade */
+
 @media (max-width: 900px) {
   .header-container {
     padding: 0 20px;

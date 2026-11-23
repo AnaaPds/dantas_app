@@ -7,7 +7,7 @@
   overflow-x: hidden;
 }
 
-/* ANIMAÇÕES */
+
 @keyframes qsFadeUp {
   0% {
     opacity: 0;
@@ -47,7 +47,7 @@
   flex: 1;
 }
 
-/* CABEÇALHO */
+
 .about-header-block {
   text-align: center;
   margin-bottom: 36px;
@@ -81,7 +81,7 @@
   margin: 14px auto 0;
 }
 
-/* LOGO CENTRAL */
+
 .about-logo-container {
   display: flex;
   justify-content: center;
@@ -108,7 +108,7 @@
   display: block;
 }
 
-/* FAIXA DE DESTAQUES */
+
 .about-stats-bar {
   display: flex;
   justify-content: space-around;
@@ -153,7 +153,7 @@
   background-color: rgba(255, 255, 255, 0.25);
 }
 
-/* PARÁGRAFOS CORPORATIVOS */
+
 .about-text-section {
   max-width: 780px;
   margin: 0 auto;
@@ -185,7 +185,7 @@
   text-align: left;
 }
 
-/* CTA FINAL */
+
 .about-cta-box {
   margin: 50px auto 0;
   max-width: 780px;
@@ -234,7 +234,7 @@
   transform: translateX(4px);
 }
 
-/* RESPONSIVIDADE */
+
 @media (max-width: 768px) {
   .about-main-content {
     padding: 32px 16px 60px;
